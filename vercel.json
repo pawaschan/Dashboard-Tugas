@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/dashboard-tugas/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/dashboard-tugas", "destination": "/index.html" },
+    { "source": "/dashboard-tugas/:path*", "destination": "/index.html" }
+  ]
+}
